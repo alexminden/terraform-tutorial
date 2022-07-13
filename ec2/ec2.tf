@@ -1,7 +1,3 @@
-# ressource "iam" {
-#     source = "../iam_creation"
-# }
-
 resource "aws_security_group" "security_group" {
   name = "terraform-ec2-sg"
 
